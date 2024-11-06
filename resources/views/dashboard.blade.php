@@ -3,6 +3,7 @@
 @section('content')
 <div class="container mx-auto px-4 py-8">
     
+
     @if (session('success'))
     <div id="flash-message" class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-6 transition-opacity">
         <span>{{ session('success') }}</span>
